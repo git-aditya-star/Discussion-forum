@@ -1,0 +1,57 @@
+body{
+    margin-left: 100px;
+}
+.na ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  
+.na li{
+    float: left;
+    border-right: 1px solid white;
+    
+  }
+  
+.na li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.logout a{
+    float: right;
+}
+
+.na li a:hover{
+    background-color: greenyellow;
+  }
+
+p{
+    font-size: 30px;
+}
+.ask{
+    text-align: center;
+}
+.ask input{
+    padding: 12px 20px;
+}
+.ask textarea{
+    width: 600px;
+    font-size: 15px;
+}
+.submit{
+    border: none;
+    background-color: #333;
+    color: white;
+    height: 50px;
+    width: 300px;
+    font-size: 18px;
+}
+.submit:hover{
+    background-color: greenyellow;
+}

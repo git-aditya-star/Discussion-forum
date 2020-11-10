@@ -1,0 +1,39 @@
+body{
+    margin-left: 100px;
+}
+.na ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  
+.na li{
+    float: left;
+    border-right: 1px solid white;
+    
+  }
+  
+.na li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.logout a{
+    float: right;
+}
+
+.na li a:hover{
+    background-color: greenyellow;
+  }
+
+.profile{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    
+}

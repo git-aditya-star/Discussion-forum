@@ -1,0 +1,59 @@
+body{
+    margin-left: 100px;
+}
+table, th, td{
+    border: none;
+    width: 70%;
+    padding: 10px;
+}
+th{
+    text-align: left;
+    font-size: 30px;
+    border-bottom: 1px solid #ddd;
+
+}
+td{
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+}
+td a:hover{
+    background-color: greenyellow;
+}
+td a{
+    text-decoration: none;
+}
+.user{
+    float: right;
+}
+strong{
+    font-size: 25px;
+}
+.na ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  
+.na li{
+    float: left;
+    border-right: 1px solid white;
+    
+  }
+  
+.na li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.logout a{
+    float: right;
+}
+
+.na li a:hover{
+    background-color: greenyellow;
+  }

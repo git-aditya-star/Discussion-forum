@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ask question</title>
+        <link rel="stylesheet" href="css/ask question.css">
+    </head>
+    <body>
+        <h1>Ask Question</h1>
+        <div class ="na">
+            <ul>
+            <li><a href="prof.php" >PROFILE</a></li>
+            <li><a href="home1.php">HOME</a></li>
+            <li><a href="ask question.html">ASK QUESTION</a></li>
+            <li><a href="View All.php">VIEW QUESTIONS</a></li>
+            <li><a class="logout" href="login.html?logout='1'" >Logout</a></li>
+            </ul>
+            </div>
+        <form method="POST" action="ask question.php">
+            <div class="ask">
+            <p><strong>Question Title:</strong></p>
+            <input type="text" name="topic_title" size=40 maxlength=150>
+            <p><strong>Question Content:</strong></p>
+            <textarea name="topic_content" rows=8 cols=40 ></textarea>
+            <p><input class="submit" type="submit" name="add" value="Add Question"></p>
+        </div>
+        </form>
+    </body>
+
+</html>
